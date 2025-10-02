@@ -5,7 +5,7 @@
 #include "calc_ops.h"  //links the function declaration in the other file; naming HAS to match completely
 
 void performCalculation() {
-  double number    //this stores the variable user input
+  double number;    //this stores the variable user input
 
   std::cout << "Enter a number to square: ";
   std::cin >> number;    //takes input from console
