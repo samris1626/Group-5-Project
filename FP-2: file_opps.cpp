@@ -2,7 +2,7 @@
 //Name: Samantha Riser, Broc Salvati, Venisha Smith
 
 #include <iostream>
-#inclue "file_ops.h"
+#include "file_ops.h"
 
 void readFile() {
 	std::cout << "Reading from File..." << std::endl;
