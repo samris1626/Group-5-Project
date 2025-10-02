@@ -7,7 +7,7 @@
 #include "file_ops.h"  //allows files to communicate; naming MUST match completely
 
 void readFile() {
-  std::ifsteam inFile("data.txt."); //input file stream, opens file for reading
+  std::ifstream inFile("data.txt."); //input file stream, opens file for reading
 
   if (!inFile) {    //makes sure the file can be found and opened
       std::cout << "Error: Could not open file for reading.\n";
