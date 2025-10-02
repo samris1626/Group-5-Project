@@ -2,7 +2,7 @@
 //Name: Samantha Riser, Broc Salvati, Venisha Smith
 
 #include <iostream>  //for console input/output
-#include <fsteam>  //for file input/output
+#include <fstream>  //for file input/output
 #include <string> //using to hold file data
 #include "file_ops.h"  //allows files to communicate; naming MUST match completely
 
