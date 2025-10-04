@@ -1,5 +1,5 @@
 //Class: SDC255 - Agile and Scrum
-//Name: Samantha Riser, Broc Salvanti, Venisha Smith
+//Name: Samantha Riser, Broc Salvati, Venisha Smith
 
 //file_ops.h
 #ifndef FILE_OPS_H
