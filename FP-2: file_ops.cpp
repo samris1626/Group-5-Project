@@ -2,6 +2,7 @@
 //Name: Samantha Riser, Broc Salvati, Venisha Smith
 
 #include <iostream>
+#include <fstream>
 #include "file_ops.h"
 
 void readFile() {
