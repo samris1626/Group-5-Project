@@ -22,7 +22,7 @@ int main() {		//main() keeps everything in a single place and makes it easy to r
 		if (!(std::cin >> choice)) {	//this line checks for non-numeric input, helping to keep input clear and concise
 			std::cin.clear();
 			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //clear and ignore prevents loops happening due to non-numerical input
-			std::cout << "Please enter a number (1, 2, or 3). \n";
+			std::cout << "Please enter a number (1, 2, 3 or 4). \n";
 			continue;
 		}
 	
