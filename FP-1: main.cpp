@@ -5,8 +5,15 @@
 #include <limits>	//these limit the dependencies; there are no extra functions or files to worry about
 #include <stdio.h>
 #include "file_ops.h"	//include for read/write functions
-#include "calc_ops.h"	//include for calculation
+#include "calc_ops.h"	
 
+bool readMenuChoice(int& choice) {
+    if (std::cin >> choice) return true;
+    std::cin.clear();
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    std::cout << "Please enter a number shown in the menu.\n";
+    return false;
+}
 
 int main() {		//main() keeps everything in a single place and makes it easy to read and understand
 	int choice = 0;		//stores user input
